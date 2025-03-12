@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = NUnitExample
+build_property.ProjectDir = /Users/astewart/Documents/small-poc/basic-unit-tests/NUnitExample/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

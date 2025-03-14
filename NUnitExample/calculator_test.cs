@@ -147,4 +147,20 @@ public class CalculatorTests
         Assert.AreEqual(expectedArray, inputArray);
     }
 
+    [TestCase("Ann")]
+    [TestCase("John")]
+    public void GetGreeting_ByValidName(string name)
+    {
+        var greeting = _calculatorOther.GetGreeting(name);
+        //Assert.AreEqual($"Hello, {name}!", greeting);
+        Assert.That(greeting, Is.EqualTo($"Hello, {name}!"));
+    }
+
+    [TestCase("")]
+    public void GetGreeting_ByEmptyName(string name)
+    {
+        // Assert.That(() => _calculatorOther.GetGreeting(name), Throws.ArgumentException);
+        Assert.Throws<System.ArgumentException>(() => _calculatorOther.GetGreeting(name));
+    }
+
 }

@@ -96,3 +96,4 @@
 /Users/astewart/Documents/small-poc/basic-unit-tests/NUnitExample/obj/Debug/net8.0/NUnitExample.pdb
 /Users/astewart/Documents/small-poc/basic-unit-tests/NUnitExample/obj/Debug/net8.0/NUnitExample.genruntimeconfig.cache
 /Users/astewart/Documents/small-poc/basic-unit-tests/NUnitExample/obj/Debug/net8.0/ref/NUnitExample.dll
+/Users/astewart/Documents/small-poc/basic-unit-tests/NUnitExample/obj/Debug/net8.0/NUnitExample.sourcelink.json

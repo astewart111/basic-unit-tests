@@ -103,4 +103,11 @@ public class CalculatorOther
         a = b;
         b = temp;
     }
+
+    public string GetGreeting(string name)
+    {
+        if (string.IsNullOrWhiteSpace(name))
+            throw new ArgumentException("Name cannot be null or empty", nameof(name));
+        return $"Hello, {name}!";
+    }
 }
